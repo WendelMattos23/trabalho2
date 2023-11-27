@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Produtos</title>
+    <link rel="stylesheet" href="../Produtos/produtos.css">
+</head>
+<body>
+
+    <div class="container">
+        <h3 style="font-size: 40px;">Sistema CRUD - Produtos</h3>
+        <p style="font-size: 25px;">Código:  <input id="inpCod" type="text"></p>
+        <p style="font-size: 25px;">Nome:  <input id="inpNome" type="text"></p>
+        <p style="font-size: 25px;">Descrição:  <input id="inpDescri" type="text"></p>
+        <p style="font-size: 25px;">Fabricante:  <input id="inpFabricante" type="text"></p>
+        <p style="font-size: 25px;">Quantidade:  <input id="inpQtda" type="text"></p>
+        <p style="font-size: 25px;">Preço:  <input id="inpPreco" type="text"></p>
+        <p style="font-size: 25px;">Custo:  <input id="inpCusto" type="text"></p>
+        <p style="font-size: 25px;">Data de Criação:  <input id="inpData" type="text"></p>
+    </div>
+    
+
+
+    <div class="itens">
+        <br>
+    <button id="btnCon">Consultar</button>
+    <button id="btnCad">Cadastrar</button>
+    <button id="btnAlt">Alterar</button>
+    <button id="btnExc">Excluir</button>
+    <button id="btnLmp">Limpar</button>
+    <button id="btnvol"><a href="../../index.html">Voltar</a></button>
+    </div>
+
+    <script src="../../node_modules/axios/dist/axios.min.js"></script>
+    <script src="../Produtos/script(produtos).js"></script>
+    
+</body>
+</html>
